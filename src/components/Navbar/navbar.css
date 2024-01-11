@@ -1,0 +1,41 @@
+.header {
+    font-size: 12.5pt;
+    font-weight: 545;
+    font-family: monospace;
+}
+
+
+.navbar {
+    height: 4rem;
+    width: 90vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #DAE3DE; 
+
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 12pt;
+}
+
+.desktopMenuListItem:hover {
+    color: #8ad4b8;
+}
+
+.links {
+    object-fit: cover;
+    height: 1.45rem;
+    width: 1.45rem;
+    margin: 0 0.35rem;
+    flex-direction: row;
+}

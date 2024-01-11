@@ -1,0 +1,73 @@
+#experience {
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 4cm;
+    padding: 1rem 2rem;
+
+}
+
+.ExpTitle {
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 0.5cm;
+}
+
+.skill {
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.LangDesc {
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 12.5pt;
+    color: #6e83b0;
+    line-height: 0.7cm;
+}
+
+.LangIcon {
+    display: inline-block;
+    color: #a0cebc;
+    height: 4rem;
+    padding: 1rem 3rem;
+    font-family: monospace;
+    font-size: 11.5pt;
+}
+
+.LangImg {
+    vertical-align: middle;
+}
+
+.DevDesc {
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 12.5pt;
+    color: #6e83b0;
+    line-height: 0.7cm;
+}
+
+.DevIcon {
+    display: inline-block;
+    color: #a0cebc;
+    height: 4rem;
+    padding: 1rem 3rem;
+    font-family: monospace;
+    font-size: 11.5pt;
+}
+
+.DevImg {
+    vertical-align: middle;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

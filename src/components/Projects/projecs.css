@@ -1,0 +1,60 @@
+#projects {
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 4cm;
+    padding: 1rem 2rem;
+
+}
+
+.ProjTitle {
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 0.5cm;
+}
+
+.ProjCard {
+    background-color: #b6bfd0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.75rem;
+    height: 100%;
+}
+
+.CardHeader {
+    margin-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardTitle {
+    color: #6e83b0;
+    font-size: 16pt;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+}
+
+.CardDesc {
+    color:#6e83b0;
+    font-size: 12pt;
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+.DevImg {
+    width: 32px;
+    height: 32px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

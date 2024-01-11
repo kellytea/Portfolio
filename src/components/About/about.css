@@ -1,0 +1,42 @@
+#about {
+    overflow: hidden;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    width: 85vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+
+}
+
+.AboutTitle {
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 0.3cm;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+    opacity: 1;
+}
+
+.desc {
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 12.5pt;
+    color: #6e83b0;
+    line-height: 0.7cm;
+}
+
+.ASU {
+    color: #a0cebc;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
