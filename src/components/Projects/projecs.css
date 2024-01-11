@@ -38,14 +38,15 @@
     font-size: 16pt;
     font-family: monospace;
     font-weight: bold;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 .CardDesc {
     color:#6e83b0;
-    font-size: 12pt;
+    font-size: 11pt;
     font-weight: lighter;
     font-family: monospace;
+    line-height: 1.3rem;
 }
 
 .DevImg {
