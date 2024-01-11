@@ -19,7 +19,7 @@ const projects = () => {
                   </div>
                 </div>
                 <div className="CardTitle">Connect Four</div>
-                <div className="CardDesc">My first mini-project using C. A program that takes in two players and prompts a visual Connect Four game. Additionally has a feature to replay a game </div>
+                <div className="CardDesc">My first mini-project using C. A program that takes in two players and prompts a visual Connect Four game. Additionally has a feature to replay the previous game. </div>
               </li>
             </ul>
         </div>
