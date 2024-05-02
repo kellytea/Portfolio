@@ -12,31 +12,17 @@
 }
 
 .AboutTitle {
-    font-size: 22pt;
-    font-weight: bold;
-    font-family: monospace;
+    font-size: 30pt;
+    font-weight: 550;
+    font-family: terminal_grotesque, arial;
     margin-bottom: 0.3cm;
 }
 
-.blink {
-    animation: blinker 1s linear infinite;
-    opacity: 1;
-}
 
 .desc {
     font-family: monospace;
     font-weight: lighter;
     font-size: 12.5pt;
-    color: #6e83b0;
+    color: #3D3A3A;
     line-height: 0.7cm;
-}
-
-.ASU {
-    color: #a0cebc;
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
 }

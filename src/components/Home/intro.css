@@ -29,7 +29,7 @@
 }
 
 .Hello {
-    width: 15.2ch;
+    width: 15.3ch;
     animation: typing 2s steps(23), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;

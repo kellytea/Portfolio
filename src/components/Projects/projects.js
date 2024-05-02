@@ -1,5 +1,5 @@
 import React from 'react';
-import './projecs.css';
+import './projects.css';
 import folder from '../../assets/icons8-folder-30.png';
 import gitsource from '../../assets/icons8-github-32.png';
 

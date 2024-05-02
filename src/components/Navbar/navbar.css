@@ -29,6 +29,7 @@
 
 .desktopMenuListItem:hover {
     color: #a2cff9;
+    opacity: 2;
 }
 
 .links {

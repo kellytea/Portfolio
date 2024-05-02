@@ -10,10 +10,10 @@ const Navbar = () => {
     <nav className="navbar">
         <div className="header">Kelly Tran</div>
         <div className="desktopMenu">
-            <Link className="desktopMenuListItem">Home</Link>
-            <Link className="desktopMenuListItem">About</Link>
-            <Link className="desktopMenuListItem">Experience</Link>
-            <Link className="desktopMenuListItem">Projects</Link>
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
+            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">About</Link>
+            <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Experience</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Projects</Link>
         </div>
         <div className="contactLinks">
             <a href="mailto:kellynhitran@gmail.com">
