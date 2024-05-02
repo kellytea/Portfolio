@@ -1,71 +1,75 @@
 #intro {
-    height: calc(100vh = 4rem);
     width:100vw;
-    max-width: 100rem;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
+    position: relative;
 }
 
-.introContent {
-    height: 100vh;
-    width: 100vw;
+.Photo {
+    left: 750px;
+    top: 100px;
+    width: 400px;
+    height: 500px;
     padding: 2rem;
-    font-family: monospace;
+    position: absolute;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.introText {
+    left: 300px;
+    height: 700px;
+    width: 1000px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
+    align-items:center;
     justify-content: center;
-    align-items: center;
+    float: left;
 }
 
 .Hello {
-    font-size: 30pt;
-    font-weight: 700;
+    width: 15.2ch;
+    animation: typing 2s steps(23), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: terminal_grotesque, arial;
+    font-size: 50pt;
     text-align: center;
 }
 
+.wrapper {
+    height: 12vh;
+    display: grid;
+    place-items: center;
+  }
+
 .Bio {
+    font-family: anonymous;
     font-size: 20pt;
     margin: 0.2cm;
-    color: #6e83b0;
-    text-align: center;
+    color: #3D3A3A;
 }
 
 .Desc { 
+    font-family: anonymous;
     font-size: 12.5pt;
-    line-height: 0.7cm;
-    color: #6e83b0;
     text-align: center;
+    line-height: 0.7cm;
+    color: #3D3A3A;
     max-width: 600px;
     padding-bottom: 10px;
-
 }
 
-.Contact {
-    border-color: #8ad4b8;
-    margin: 1rem 0;
-    padding: 0.7rem 1rem;
-    border-radius: 1.5rem;
-    align-items: center;
-    color:#586d96;
-    font-weight: bolder;
-    font-family: monospace;
-    font-size: 10pt;
-}
-
-.Kelly {
-    color:#a0cebc;
-}
-
-.ContactImg {
-    object-fit: cover;
-    margin: 1 0.25rem;
-    height: 2.3rem;
-}
-
-@media only screen and (max-width: 600px) {
-    .Desc {
-        font-size: 10pt;
-        max-width: none;
-        padding-bottom: 20px;
+@keyframes typing {
+    from {
+      width: 0
     }
-}
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

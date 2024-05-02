@@ -1,14 +1,13 @@
 .header {
-    font-size: 12.5pt;
-    font-weight: 545;
-    font-family: monospace;
+    font-size: 12.12pt;
+    font-weight: bold;
+    font-family: anonymous;
 }
 
 
 .navbar {
-    height: 4rem;
+    height: 3rem;
     width: 90vw;
-    max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -17,19 +16,19 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    background: #DAE3DE; 
-
+    background: transparent;
+    backdrop-filter: blur(6pt);
 }
 
 .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
-    font-family: monospace;
+    font-family: anonymous;
     font-size: 12pt;
 }
 
 .desktopMenuListItem:hover {
-    color: #8ad4b8;
+    color: #a2cff9;
 }
 
 .links {

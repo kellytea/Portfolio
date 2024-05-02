@@ -1,15 +1,14 @@
 import React from 'react';
 import './navbar.css';
-import email from '../../assets/icons8-mail-24 (4).png';
-import linkedin from '../../assets/icons8-linkedin-30 (3).png';
-import github from '../../assets/icons8-github-30 (3).png';
+import email from '../../assets/icons8-mail-32.png';
+import linkedin from '../../assets/icons8-linkedin-32 (1).png';
+import github from '../../assets/icons8-github-32.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
         <div className="header">Kelly Tran</div>
-
         <div className="desktopMenu">
             <Link className="desktopMenuListItem">Home</Link>
             <Link className="desktopMenuListItem">About</Link>

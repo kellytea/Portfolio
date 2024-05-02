@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    background-color: #e8e7e4; 
+    color: #3D3A3A;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.cursor {
+    background-color: transparent;
+    position: fixed;
+}
+
+@font-face {
+    font-family: terminal_grotesque;
+    src: url(../public/fonts/terminal-grotesque.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anonymous';
+    src: url(../public//fonts/Anonymous\ Pro.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

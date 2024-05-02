@@ -1,3 +1,4 @@
+import './App.css'
 import Navbar from "./components/Navbar/navbar";
 import Home from "./components/Home/intro";
 import About from "./components/About/about";
@@ -12,6 +13,7 @@ function App() {
       <About/>
       <Experience/>
       <Projects/>
+      <div className="cursor"> </div>
     </div>
   );
 }
